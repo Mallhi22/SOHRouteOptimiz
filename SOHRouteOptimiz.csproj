@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="res.properties" />
+      <None Remove="resources\tsconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mars.Common" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.Common.IO" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.Common.Mathematics" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.Core" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.Interfaces" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.Life.Simulations" Version="4.2.0-beta-3" />
+      <PackageReference Include="Mars.NetCore.Database.EntityFramework" Version="0.1.0-alpha0030" />
+      <PackageReference Include="Mars.NetCore.Validation" Version="0.1.0-alpha0035" />
+      <PackageReference Include="Microsoft.NETCore.Platforms" Version="5.0.0-rc.2.20475.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="resources\altona_altstadt_drive_graph.graphml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\car.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\FourWayStopTwoCarsGiveWayTest.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\harburg_zentrum_drive_graph.geojson">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\OneCar.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\Parking_Harburg_zentrum.geojson">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\TrafficLightIntersectionCars.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Include="resources\traffic_lights_harburg_zentrum.geojson">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SOHTests\SOHTests.csproj" />
+    </ItemGroup>
+
+</Project>

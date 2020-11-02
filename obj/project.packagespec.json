@@ -1,0 +1,88 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj",
+    "projectName": "SOHRouteOptimiz",
+    "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj",
+    "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj": {
+            "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Mars.Common": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.Common.IO": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.Common.Mathematics": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.Core": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.Interfaces": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.Life.Simulations": {
+          "target": "Package",
+          "version": "[4.2.0-beta-3, )"
+        },
+        "Mars.NetCore.Database.EntityFramework": {
+          "target": "Package",
+          "version": "[0.1.0-alpha0030, )"
+        },
+        "Mars.NetCore.Validation": {
+          "target": "Package",
+          "version": "[0.1.0-alpha0035, )"
+        },
+        "Microsoft.NETCore.Platforms": {
+          "target": "Package",
+          "version": "[5.0.0-rc.2.20475.5, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+    }
+  }
+}

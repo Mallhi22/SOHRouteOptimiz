@@ -1,0 +1,516 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj": {}
+  },
+  "projects": {
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/SOHBicycleModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/SOHBicycleModel.csproj",
+        "projectName": "SOHBicycleModel",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/SOHBicycleModel.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/SOHCarModel.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/SOHCarModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/SOHCarModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/SOHCarModel.csproj",
+        "projectName": "SOHCarModel",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/SOHCarModel.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHCarModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj",
+        "projectName": "SOHDomain",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Mars.Life.Simulations": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/SOHFerryModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/SOHFerryModel.csproj",
+        "projectName": "SOHFerryModel",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/SOHFerryModel.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHDomain/SOHDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/SOHMultimodalModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/SOHMultimodalModel.csproj",
+        "projectName": "SOHMultimodalModel",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/SOHMultimodalModel.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/SOHBicycleModel.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHBicycleModel/SOHBicycleModel.csproj"
+              },
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/SOHFerryModel.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHFerryModel/SOHFerryModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/SOHResources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/SOHResources.csproj",
+        "projectName": "SOHResources",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/SOHResources.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj",
+        "projectName": "SOHRouteOptimiz",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/SOHRouteOptimiz.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHRouteOptimiz/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Mars.Common": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.Common.IO": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.Common.Mathematics": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.Core": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.Interfaces": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.Life.Simulations": {
+              "target": "Package",
+              "version": "[4.2.0-beta-3, )"
+            },
+            "Mars.NetCore.Database.EntityFramework": {
+              "target": "Package",
+              "version": "[0.1.0-alpha0030, )"
+            },
+            "Mars.NetCore.Validation": {
+              "target": "Package",
+              "version": "[0.1.0-alpha0035, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj",
+        "projectName": "SOHTests",
+        "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/SOHTests.csproj",
+        "packagesPath": "/Users/parneetsinghmallhi/.nuget/packages/",
+        "outputPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parneetsinghmallhi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/SOHMultimodalModel.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHMultimodalModel/SOHMultimodalModel.csproj"
+              },
+              "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/SOHResources.csproj": {
+                "projectPath": "/Users/parneetsinghmallhi/RiderProjects/model-smart-open-hamburg-po/SOHResources/SOHResources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

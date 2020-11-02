@@ -1,0 +1,49 @@
+{
+"id": "SOHRouteOptimiz",
+"globals": {
+"deltaT": 1,
+"startPoint": "2020-01-01T00:00:00",
+"endPoint": "2020-01-02T07:00:00",
+"deltaTUnit": "seconds",
+"console": true,
+"output": "none"
+},
+"agents": [{
+"name": "Traveler",
+"output": "none",
+"individual": [{
+"value": [10.025595724582672,53.56711503998041],
+"parameter": "start"
+},
+{
+"value": [10.027395486831665,53.58051568068171],
+"parameter": "Goal"
+},
+{
+"value": true,
+"parameter": "TravelCapabilities"
+}
+]
+}],
+"layers": [{
+"name": "CarLayer",
+"file": "resources/harburg_zentrum_drive_graph.geojson"
+},
+{
+"name": "TrafficLightLayer",
+"file": "resources/traffic_lights_harburg_zentrum.geojson"
+},
+{
+"name": "CarParkingLayer",
+"file": "resources/Parking_Harburg_zentrum.geojson"
+},
+{
+"name": "TravelerLayer",
+"file": "resources/OneCar.csv"
+}
+],
+"entities": [{
+"name": "Car",
+"file": "resources/car.csv"
+}]
+}
